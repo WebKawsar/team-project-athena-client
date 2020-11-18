@@ -1,0 +1,13 @@
+.green-btn{
+    width: 178px;
+height: 60px;
+background: transparent linear-gradient(128deg, #2AF598 0%, #009EFD 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+color:white;
+}
+
+.logo{
+    width: 171px;
+height: 118px;
+opacity: 1;
+}
