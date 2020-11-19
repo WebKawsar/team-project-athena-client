@@ -1,4 +1,6 @@
 import React from 'react';
+import Achievements from '../Achievements/Achievements';
+import RunningProject from '../RunningProject/RunningProject';
 import Services from '../Services/Services';
 
 
@@ -6,7 +8,9 @@ import Services from '../Services/Services';
 const Home = () => {
     return (
         <>
-           <Services></Services> 
+           <Services></Services>
+           <RunningProject></RunningProject>
+           <Achievements></Achievements>
         </>
     );
 };
