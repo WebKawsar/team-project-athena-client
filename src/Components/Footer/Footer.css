@@ -1,0 +1,24 @@
+.input{
+    width:50%;
+    padding: 20px 5px;
+    margin: 15px auto;
+    box-shadow: 0px 0px 50px #0000001A;
+    border-radius: 5px;
+}
+.getStarted{
+    position: absolute;
+    margin: 53px 54%;
+    width: 100px;
+    background: transparent linear-gradient(127deg, #2AF598 0%, #009EFD 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    height: 40px;
+    border-radius:5px;
+    color: white;
+}
+.logoImg {
+    width: 37%;
+}
+.socialIcon {
+    width: 20px;
+    margin: 20px 20px 20px 0;
+}
