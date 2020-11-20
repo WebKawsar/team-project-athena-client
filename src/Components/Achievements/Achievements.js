@@ -116,7 +116,7 @@ const Achievements = () => {
     const classes = useStyles();
     return (
         <>
-           <Box className={classes.root}>
+           <Box id="pricing" className={classes.root}>
                 <Container>
                     <Grid alignItems="center" container spacing={5}>
                         <Grid item xs={12} sm={12} md={5}>
@@ -128,7 +128,7 @@ const Achievements = () => {
                         </Grid>
                         <Grid item xs={12} sm={12} md={7}>
                             <Grid container spacing={4}>
-                                <Grid item md={6}>
+                                <Grid item xs={12} sm={6} md={6} lg={6}>
                                     <Box className={classes.Achievement}>
                                         <Box>
                                             <FontAwesomeIcon className={classes.icon} icon={faSmile} />
@@ -139,7 +139,7 @@ const Achievements = () => {
                                         </Box>
                                     </Box>
                                 </Grid>
-                                <Grid item md={6}>
+                                <Grid item xs={12} sm={6} md={6} lg={6}>
                                     <Box className={classes.Achievement2}>
                                         <Box>
                                             <FontAwesomeIcon className={classes.icon} icon={faTrophy} />
@@ -151,8 +151,9 @@ const Achievements = () => {
                                     </Box>
                                 </Grid>
                             </Grid>
+
                             <Grid container spacing={4}>
-                                <Grid item md={6}>
+                                <Grid item xs={12} sm={6} md={6} lg={6}>
                                     <Box className={classes.Achievement2}>
                                         <Box>
                                             <FontAwesomeIcon className={classes.icon} icon={faMedal} />
@@ -163,7 +164,7 @@ const Achievements = () => {
                                         </Box>
                                     </Box>
                                 </Grid>
-                                <Grid item md={6}>
+                                <Grid item xs={12} sm={6} md={6} lg={6}>
                                     <Box className={classes.Achievement}>
                                         <Box>
                                             <FontAwesomeIcon className={classes.icon} icon={faRocket} />
