@@ -2,13 +2,13 @@ import { Box, Container, Grid, IconButton, makeStyles } from '@material-ui/core'
 import React from 'react';
 import image from "../../athena-design-resources/Illustration/20 [Converted]@2x.png";
 
+
+
+
+
 const useStyles = makeStyles({
     root: {
         padding: "50px 0",
-        // backgroundImage: "url('https://i.ibb.co/KhWmYCY/Group-45-2x.png')",
-        // backgroundRepeat: "no-repeat",
-        // backgroundSize: "10% 10%",
-        // backgroundPosition: "right",
 
     },
     image: {

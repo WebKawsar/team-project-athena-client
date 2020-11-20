@@ -2,12 +2,19 @@ import { Box, Container, Grid, makeStyles } from '@material-ui/core';
 import React from 'react';
 
 import image from "../../athena-design-resources/Illustration/16 [Converted]@2x.png";
-
+import imageRosi from "../../athena-design-resources/Illustration/rosi2.png";
 
 
 const useStyles = makeStyles({
     root: {
-        padding: "80px 0"
+        padding: "80px 0",
+
+        backgroundImage: `url('${imageRosi}')`,
+        backgroundSize: "100% 100%",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "-388px 22px",
+
+
     },
     introHeading: {
         font: "normal normal normal 70px/70px Yeseva One",

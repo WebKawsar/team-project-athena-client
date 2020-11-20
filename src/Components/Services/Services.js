@@ -2,6 +2,7 @@ import { Box, Container, Grid, makeStyles } from '@material-ui/core';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import imageRosi from "../../athena-design-resources/Illustration/rosi.png";
 import image from "../../athena-design-resources/Illustration/Group 65@2x.png";
 import SingleService from '../SingleService/SingleService';
 
@@ -10,7 +11,10 @@ import SingleService from '../SingleService/SingleService';
 const useStyles = makeStyles({
     root: {
         background: "#FAFFFD 0% 0% no-repeat padding-box",
-        padding: "30px 0 50px"
+        padding: "30px 0 50px",
+        backgroundImage: `url('${imageRosi}')`,
+        backgroundSize: "100% 100%",
+
     },
     
     intro: {
@@ -18,7 +22,7 @@ const useStyles = makeStyles({
         marginBottom: "45px"
     },
     serviceIntro: {
-        font: "normal normal normal 40px/70px arial",
+        font: "normal normal normal 40px/70px Yeseva One",
         letterSpacing: "0px",
         color: "#0D052E",
     },
