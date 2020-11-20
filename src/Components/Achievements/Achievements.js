@@ -9,7 +9,7 @@ import image from "../../athena-design-resources/Illustration/happy@2x.png";
 
 const useStyles = makeStyles({
     root: {
-        padding: "150px 0",
+        padding: "150px 0 40px",
         backgroundColor: "#FAFFFD"
         // backgroundImage: "url('https://i.ibb.co/KhWmYCY/Group-45-2x.png')",
         // backgroundRepeat: "no-repeat",

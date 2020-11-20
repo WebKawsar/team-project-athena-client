@@ -8,6 +8,8 @@ import Services from '../Services/Services';
 
 import image from "../../athena-design-resources/Illustration/Group 45@2x.png";
 import rightBackgroundImage from "../../athena-design-resources/Illustration/Group 46@2x.png";
+import Team from '../Team/Team';
+import Footer from '../Footer/Footer';
 
 
 
@@ -59,6 +61,8 @@ const Home = () => {
                         <RunningProject></RunningProject>
                         <Achievements></Achievements>
                     </Box>
+                    <Team></Team>
+                    <Footer></Footer>
                 </Box>
             </> 
     );

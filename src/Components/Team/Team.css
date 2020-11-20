@@ -1,0 +1,58 @@
+.teamBox{
+    height: 550px;
+    margin: 10px 10px;
+    box-shadow: 0px 0px 20px #0000001A;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+.price{
+    font-weight: 700;
+    color: rgb(66, 66, 66);
+}
+.underLine {
+    width:70%;
+    background-color:#63f5da;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.features {
+    margin-top:20px;
+    color: rgb(66, 66, 66);
+}
+.orderButton {
+    display: none;
+    border: none;
+    border-radius: 20px 0;
+    background: transparent linear-gradient(128deg, #2AF598 0%, #009EFD 100%) 0% 0% no-repeat padding-box;
+    height: 40px;
+    width: 110px;
+    margin: 30px auto;
+    color: white;
+}
+.teamBox:hover .orderButton {
+    display: block;
+}
+.teamBox:hover {
+    border: 3px solid #3CEDCE;
+}
+.teamBox:hover .underLine{
+    background-color: lightgray;
+}
+.teamBox:hover .features{
+    color: black;
+}
+.teamBox:hover .price{
+    color: black;
+}
+.bg-color{
+    background-color:#FAFFFD;
+}
+
+.team-bg{
+    position: absolute;
+    transform: rotate(180deg);
+    margin-left: -48%;
+    margin-top: -16%;
+}
