@@ -4,11 +4,18 @@ import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import logo from "../../athena-design-resources/Illustration/Group 86.png";
-
+import back from "../../athena-design-resources/Illustration/Group 45@2x.png";
 
 const useStyles = makeStyles({
-    root: {
-        padding: "20px 0"
+    header: {
+        padding: "20px 0",
+
+        backgroundImage: `url('${back}')`,
+        backgroundSize: "546px 236px",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "-264px -117px",
+        // backgroundColor: "red",
+
     },
     link: {
         color: "grey",
@@ -55,7 +62,7 @@ const Header = () => {
 
     const classes = useStyles();
     return (
-        <Box className={classes.root}>
+        <Box className={classes.header}>
             <Container>
                 <Navbar expand="lg">
                     <Navbar.Brand href="#home">
